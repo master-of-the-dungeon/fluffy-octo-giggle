@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background: #292929;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+ 
+.menu{
+    background: #1b1b1b;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+
+}
+a{
+    text-decoration: none;
+    margin-right: 80px;
+    color: #ff9317;
+}
+
+.content{
+    margin: 0 auto;
+    padding:0 10px; 
+    background: #292929;
+    width:960px;
+}
+ 
+.footer{
+    background: #1b1b1b;;
+    height: 100px;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.wrapper {
+    background-color: #808080;
+}
+ 
+.content h1,h2,h3 {
+    padding-top: 15px; 
+    font-size: 160%; /* Размер шрифта */
+    font-family: Verdana, Arial, Helvetica, sans-serif; /* Семейство шрифта */
+    color: #ffffff; /* Цвет текста */
+   }
+ 
+.header h1{
+    color: #ffffff;
+    font-size: 50px;
+}
+ 
+.content p { 
+    padding-top: 15px;
+    font-size: 120%; /* Размер шрифта */
+    font-family: Verdana, Arial, Helvetica, sans-serif; /* Семейство шрифта */
+    color: #ffffff;
+    ; /* Цвет текста */
+   }
+
+
+
